@@ -1,0 +1,6 @@
+<?php
+$value =100;
+$vat = $value*0.15;
+$price = $value+$vat;
+
+print("The price of the product is: ".$value."\nNet vat: ".$vat."\nTotal Amount: ".$price);
